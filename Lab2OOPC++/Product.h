@@ -16,4 +16,7 @@ public:
     int getUID(){
         return uid;
     }
+    string getName() const{
+        return name;
+    }
 };
