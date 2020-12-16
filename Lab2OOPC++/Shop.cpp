@@ -12,8 +12,9 @@
 #include "ProductInfoInStore.h"
 #include <float.h>
 using namespace std;
-Shop::Shop(int uid) {
+Shop::Shop(int uid, string name) {
     this->uid = uid;
+    this->name = name;
 }
 void Shop::deliveryGoods(vector<Product> products, vector<double> prices) {
     for(int i = 0; i < products.size(); i++){

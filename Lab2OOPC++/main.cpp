@@ -2,8 +2,8 @@
 #include "ShopManager.cpp"
 int main(int argc, const char * argv[]) {
     ShopManager shopManager;
-    int shop = shopManager.createShop();
-    int shop2 = shopManager.createShop();
+    int shop = shopManager.createShop("shop21");
+    int shop2 = shopManager.createShop("shop90fj");
     vector<Product> products;
     Product p1("some");
     Product p2("shit");

@@ -17,9 +17,9 @@ class ShopManager{
     }
 public:
     ShopManager(){}
-    int createShop(){ // return uid
+    int createShop(string name){ // return uid
         shopsUIDCounter++;
-        shops[shopsUIDCounter] = new Shop(shopsUIDCounter);
+        shops[shopsUIDCounter] = new Shop(shopsUIDCounter, name);
         return shopsUIDCounter;
     }
     void putGoodsToShopWithUID(int shopUID, vector<Product> products, vector<double> prices){
