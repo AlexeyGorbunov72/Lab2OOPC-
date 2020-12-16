@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA57F09C2589989800E790B1 /* ProductInfoInStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F09A2589989800E790B1 /* ProductInfoInStore.cpp */; };
 		CAF1D450258969D1009390A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAF1D44F258969D1009390A8 /* main.cpp */; };
+		CAF1D458258969F5009390A8 /* Product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAF1D457258969F5009390A8 /* Product.cpp */; };
+		CAF1D45B25896AF8009390A8 /* Shop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAF1D45A25896AF8009390A8 /* Shop.cpp */; };
+		CAF1D45E25896E4B009390A8 /* ShopManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAF1D45D25896E4B009390A8 /* ShopManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA57F09A2589989800E790B1 /* ProductInfoInStore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProductInfoInStore.cpp; sourceTree = "<group>"; };
 		CAF1D44C258969D1009390A8 /* Lab2OOPC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab2OOPC++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF1D44F258969D1009390A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CAF1D457258969F5009390A8 /* Product.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Product.cpp; sourceTree = "<group>"; };
+		CAF1D45A25896AF8009390A8 /* Shop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shop.cpp; sourceTree = "<group>"; };
+		CAF1D45D25896E4B009390A8 /* ShopManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShopManager.cpp; sourceTree = "<group>"; };
+		CAF1D46025896EA8009390A8 /* Shop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		CAF1D46125896EB2009390A8 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		CAF1D46325897B14009390A8 /* ProductInfoInStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductInfoInStore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				CAF1D44F258969D1009390A8 /* main.cpp */,
+				CAF1D457258969F5009390A8 /* Product.cpp */,
+				CAF1D45A25896AF8009390A8 /* Shop.cpp */,
+				CAF1D45D25896E4B009390A8 /* ShopManager.cpp */,
+				CAF1D46025896EA8009390A8 /* Shop.h */,
+				CAF1D46125896EB2009390A8 /* Product.h */,
+				CAF1D46325897B14009390A8 /* ProductInfoInStore.h */,
+				CA57F09A2589989800E790B1 /* ProductInfoInStore.cpp */,
 			);
 			path = "Lab2OOPC++";
 			sourceTree = "<group>";
@@ -118,7 +136,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA57F09C2589989800E790B1 /* ProductInfoInStore.cpp in Sources */,
+				CAF1D45B25896AF8009390A8 /* Shop.cpp in Sources */,
+				CAF1D45E25896E4B009390A8 /* ShopManager.cpp in Sources */,
 				CAF1D450258969D1009390A8 /* main.cpp in Sources */,
+				CAF1D458258969F5009390A8 /* Product.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
